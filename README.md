@@ -73,7 +73,8 @@ Explanation:
 # Dataset
 
 This project uses the **Kvasir Dataset**, which contains labeled endoscopic images representing different gastrointestinal conditions.
-
+Kvasir dataset (8000 images, 8 classes)
+Resolution: 720×576 to 1920×1072
 Dataset source:
 
 https://datasets.simula.no/kvasir/
