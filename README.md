@@ -87,6 +87,37 @@ Below are example visualizations from the experiments.
 ## Confusion Matrix
 
 #DenseNet
+
 <img width="800" height="600" alt="densenet_cm" src="https://github.com/user-attachments/assets/dfe39a51-c6d3-4410-bbab-a11cc71233b0" />
+
+## Training Curve
+
+<img width="1200" height="400" alt="densenet_loss" src="https://github.com/user-attachments/assets/447d388e-4e99-4176-9c04-9befd5ce453e" />
+
+
+---
+
+# Technologies Used
+
+- Python
+- PyTorch
+- OpenCV
+- Scikit-learn
+- Matplotlib
+- NumPy
+
+---
+
+# Installation
+
+Clone the repository:
+
+
+#Author
+
+Vladislav Skobelev
+
+Computer Engineering Student
+
 
 
