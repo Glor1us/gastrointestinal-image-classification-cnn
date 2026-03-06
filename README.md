@@ -16,6 +16,55 @@ The models were evaluated and compared using multiple performance metrics.
 
 ---
 
+# Google Colab (Run the Project)
+
+To reproduce the experiment easily, open the project in Google Colab:
+
+👉 **Google Colab Notebook:**  
+https://colab.research.google.com/drive/1RNxaAZeAhuGJUIs2w6lfMrkqZhnioHy6?usp=sharing
+
+Colab contains the full pipeline:
+
+- dataset loading
+- preprocessing
+- model training
+- evaluation
+- visualization of results
+
+This allows anyone to reproduce the results without local setup.
+
+---
+
+# Project Structure
+
+```
+Gastrointestinal-Image-Classification-CNN
+│
+├── notebooks
+│   └── training_model.ipynb
+│
+├── results
+│   ├── accuracy_plot.png
+│   ├── loss_plot.png
+│   └── confusion_matrix.png
+│
+├── models
+│   └── cnn_model.h5
+│
+├── requirements.txt
+│
+└── README.md
+```
+
+Explanation:
+
+- **notebooks/** — Jupyter notebooks used for training and experiments  
+- **results/** — training results and evaluation plots  
+- **models/** — saved trained models  
+- **requirements.txt** — required Python libraries 
+
+---
+
 # Dataset
 
 This project uses the **Kvasir Dataset**, which contains labeled endoscopic images representing different gastrointestinal conditions.
@@ -34,6 +83,21 @@ Preprocessing steps:
 - Normalization
 - Train / validation / test split
 - Data augmentation
+
+---
+
+# Model Architecture
+
+The project uses Convolutional Neural Networks (CNN) for image classification.
+
+Typical CNN components used:
+
+- Convolution layers
+- MaxPooling layers
+- Fully connected layers
+- Softmax output layer
+
+The model was trained using TensorFlow / Keras.
 
 ---
 
@@ -134,9 +198,27 @@ Below are example visualizations from the experiments.
 
 ---
 
-# Installation
+# How to Run Locally
 
 Clone the repository:
+
+```bash
+git clone https://github.com/Glor1us/gastrointestinal-image-classification-cnn
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run training:
+
+```bash
+python train.py
+```
+
+Alternatively, run the project directly in Google Colab.
 
 ---
 
