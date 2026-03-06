@@ -86,14 +86,40 @@ Below are example visualizations from the experiments.
 
 ## Confusion Matrix
 
-#DenseNet
+# DenseNet121
 
 <img width="800" height="600" alt="densenet_cm" src="https://github.com/user-attachments/assets/dfe39a51-c6d3-4410-bbab-a11cc71233b0" />
 
+# EfficientNetB0
+
+<img width="800" height="600" alt="efficientnet_cm" src="https://github.com/user-attachments/assets/ea29c4ab-6512-4e64-89b2-27bf8cc65d31" />
+
+# InceptionV3
+
+<img width="900" height="700" alt="inception_cm" src="https://github.com/user-attachments/assets/a25cc2cd-5fa2-484d-ab4f-85038ed06014" />
+
+# MobileNetV3
+
+<img width="800" height="600" alt="mobilenet_cm" src="https://github.com/user-attachments/assets/f4f6cdb2-ea73-42f5-8032-f77a31ba6c49" />
+
+
 ## Training Curve
+
+# DenseNet121
 
 <img width="1200" height="400" alt="densenet_loss" src="https://github.com/user-attachments/assets/447d388e-4e99-4176-9c04-9befd5ce453e" />
 
+# EfficientNetB0
+
+<img width="1200" height="400" alt="efficientnet_loss" src="https://github.com/user-attachments/assets/a60aacba-76f0-4a45-9058-3b25167c8632" />
+
+# InceptionV3
+
+<img width="1200" height="400" alt="inception_loss" src="https://github.com/user-attachments/assets/9ac23aad-42f9-47dc-bd5b-c5b52fc95340" />
+
+# MobileNetV3
+
+<img width="1200" height="400" alt="mobilenet_loss" src="https://github.com/user-attachments/assets/d4eef859-d6ce-4128-be7b-01d81bd6461a" />
 
 ---
 
@@ -112,8 +138,9 @@ Below are example visualizations from the experiments.
 
 Clone the repository:
 
+---
 
-#Author
+# Author
 
 Vladislav Skobelev
 
