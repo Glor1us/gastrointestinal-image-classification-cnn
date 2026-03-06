@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RNxaAZeAhuGJUIs2w6lfMrkqZhnioHy6?usp=sharing)
+
 # Gastrointestinal Image Classification using Deep Learning
 
 Deep learning project for **medical image classification** using CNN architectures on the **Kvasir gastrointestinal dataset**.
