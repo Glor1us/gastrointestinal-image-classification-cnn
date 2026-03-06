@@ -46,18 +46,18 @@ This allows anyone to reproduce the results without local setup.
 Gastrointestinal-Image-Classification-CNN
 │
 ├── notebooks
-│   └── training_model.ipynb
+│   └── exploration.ipynb
+│
+├── src
+│   ├── model.py
+│   ├── train.py
+│   └── utils.py
 │
 ├── results
-│   ├── accuracy_plot.png
-│   ├── loss_plot.png
-│   └── confusion_matrix.png
-│
 ├── models
-│   └── cnn_model.h5
+├── dataset
 │
 ├── requirements.txt
-│
 └── README.md
 ```
 
