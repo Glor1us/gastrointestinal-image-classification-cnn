@@ -1,102 +1,86 @@
-# gastrointestinal-image-classification-cnn
-Deep learning project for gastrointestinal image classification using CNN architectures and the Kvasir dataset.
-Gastrointestinal Image Classification using Deep Learning
-Project Overview
+# Gastrointestinal Image Classification using Deep Learning
 
-This project explores deep learning approaches for automatic classification of gastrointestinal endoscopic images using convolutional neural networks (CNNs).
+Deep learning project for **medical image classification** using CNN architectures on the **Kvasir gastrointestinal dataset**.
 
-The goal is to evaluate how different neural network architectures perform on medical image classification tasks.
+This project compares multiple convolutional neural network architectures and evaluates their performance on endoscopic image classification.
 
-The models were trained and evaluated using the Kvasir dataset, a widely used dataset for gastrointestinal disease analysis.
+---
 
-Dataset
+# Project Overview
 
-This project uses the Kvasir Dataset, which contains labeled endoscopic images representing various gastrointestinal conditions.
+Medical image classification is an important task in computer vision and healthcare. Automated analysis of gastrointestinal images can assist doctors in detecting abnormalities and improving diagnostic efficiency.
+
+In this project, several **deep learning CNN architectures** were trained using transfer learning to classify gastrointestinal images.
+
+The models were evaluated and compared using multiple performance metrics.
+
+---
+
+# Dataset
+
+This project uses the **Kvasir Dataset**, which contains labeled endoscopic images representing different gastrointestinal conditions.
 
 Dataset source:
 
 https://datasets.simula.no/kvasir/
 
-The images were resized and preprocessed before training.
+The dataset contains images from multiple classes of gastrointestinal findings.
 
-Models Used
+Images were preprocessed before training.
+
+Preprocessing steps:
+
+- Image resizing
+- Normalization
+- Train / validation / test split
+- Data augmentation
+
+---
+
+# Models Used
 
 The following deep learning architectures were evaluated:
 
-InceptionV3
+- InceptionV3
+- MobileNetV3
+- DenseNet121
+- EfficientNetB0
 
-MobileNetV3
+All models were trained using **transfer learning with pretrained weights**.
 
-DenseNet121
+---
 
-EfficientNetB0
+# Methodology
 
-All models were trained using transfer learning.
+The training pipeline consisted of the following steps:
 
-Methodology
+1. Dataset preprocessing
+2. Image resizing to a fixed resolution
+3. Dataset splitting (train / validation / test)
+4. Transfer learning using pretrained CNN models
+5. Model training and fine-tuning
+6. Performance evaluation
 
-Image preprocessing and resizing
+---
 
-Train / validation / test split
+# Evaluation Metrics
 
-Transfer learning using pretrained CNN models
+Model performance was evaluated using the following metrics:
 
-Fine-tuning of model layers
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
 
-Evaluation using classification metrics
+---
 
-Evaluation Metrics
+# Results
 
-Model performance was evaluated using:
+Below are example visualizations from the experiments.
 
-Accuracy
+## Model Accuracy Comparison
 
-Precision
+<!-- ВСТАВЬ СЮДА КАРТИНКУ СРАВНЕНИЯ ACCURACY -->
 
-Recall
-
-F1-score
-
-Confusion Matrix
-
-Results
-
-The models achieved different performance levels depending on architecture complexity and feature extraction capability.
-
-Example results include:
-
-Accuracy comparison between architectures
-
-Confusion matrices
-
-Training curves
-
-Example visualization:
-
-Accuracy comparison between CNN architectures
-
-(Insert plots in the results folder)
-
-Project Structure
-dataset_info/        Dataset description
-notebooks/           Training notebooks
-results/             Graphs and evaluation outputs
-models/              Model information
-requirements.txt     Python dependencies
-Technologies Used
-
-Python
-
-PyTorch
-
-OpenCV
-
-Scikit-learn
-
-Matplotlib
-
-Author
-
-Vladislav Skobelev
-
-Computer Engineering Student
+Example:
