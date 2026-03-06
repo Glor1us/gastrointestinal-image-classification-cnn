@@ -219,11 +219,17 @@ Alternatively, run the project directly in Google Colab.
 
 ---
 
-# Author
+# Next Steps / Ideas for Improvement
 
-Vladislav Skobelev
+Add more advanced data augmentation techniques to improve model robustness.
 
-Computer Engineering Student
+Experiment with other architectures (e.g., Vision Transformers) to compare performance.
+
+Integrate explainable AI (XAI) methods to better understand model decisions.
+
+Use a larger and more balanced dataset to improve generalization.
+
+Deploy the model as a web service (e.g., using Flask or FastAPI) for real-world applications.
 
 
 
