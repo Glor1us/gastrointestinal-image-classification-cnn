@@ -6,6 +6,9 @@ Deep learning project for **medical image classification** using CNN architectur
 
 This project compares multiple convolutional neural network architectures and evaluates their performance on endoscopic image classification.
 
+# Goal:
+Assist automated diagnosis of GI diseases from endoscopic images.
+
 ---
 
 # Project Overview
