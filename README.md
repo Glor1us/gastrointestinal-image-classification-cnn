@@ -40,23 +40,14 @@ This allows anyone to reproduce the results without local setup.
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```
-Gastrointestinal-Image-Classification-CNN
-│
-├── notebooks
-│   └── exploration.ipynb
-│
-├── src
-│   ├── model.py
-│   ├── train.py
-│   └── utils.py
-│
-├── results
-├── models
-├── dataset
-│
+├── notebooks/          # Jupyter notebooks for experimentation
+├── src/                # Source code for model training
+├── results/            # Training results and evaluation plots
+├── models/             # Saved models
+├── dataset/            # Dataset instructions
 ├── requirements.txt
 └── README.md
 ```
