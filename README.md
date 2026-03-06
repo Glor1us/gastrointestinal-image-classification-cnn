@@ -81,6 +81,12 @@ Below are example visualizations from the experiments.
 
 ## Model Accuracy Comparison
 
-<!-- ВСТАВЬ СЮДА КАРТИНКУ СРАВНЕНИЯ ACCURACY -->
+<img width="700" height="500" alt="comparison_accuracy" src="https://github.com/user-attachments/assets/3b091e29-1935-446f-a71a-149926e78bcb" />
 
-Example:
+
+## Confusion Matrix
+
+#DenseNet
+<img width="800" height="600" alt="densenet_cm" src="https://github.com/user-attachments/assets/dfe39a51-c6d3-4410-bbab-a11cc71233b0" />
+
+
